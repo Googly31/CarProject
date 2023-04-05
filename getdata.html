@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div{
+            text-align: center;
+            padding: 450px 650px ;
+        }
+        th{
+            color: white;
+            font-size: 25px;
+        }
+        input{
+            border-radius: 8px;
+            font-size: 20px;
+            padding: 6px;
+        }
+        #button{
+            background-color: crimson;
+        }
+        #button:active{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+    <form action="GetData">
+        <table>
+            <tr>
+                <th>Enter the Car Model:</th>
+                <td><input type="text" name="model"></td>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" value="Search" id="button"></th>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div{
+            text-align: center;
+            padding: 250px;
+        }
+        h1{
+            color: blue;
+            font-size: 70px;
+        }
+        #username,#password,#f-name,#date{
+            font-size: 25px;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        #login{
+            font-size: 25px;
+            background-color: crimson;
+            border-radius: 5px;
+            padding: 4px 4px 5px 5px;
+        }
+        #login:hover{
+            background-color: blue;
+        }
+        p{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Register</h1>
+        <form action="">
+            <input type="text" name="fname" id="f-name" placeholder="Enter Name"><br><br>
+            <input type="text" name="uname" id="username" placeholder="Username/Email"><br><br>
+            <input type="password" name="pwd" id="password" placeholder="Password"><br><br>
+            <input type="date" id="date"><br><br>
+            <input type="button" value="Register" id="login" onclick="func()"><br><br>
+            <p>Existing User</p>
+            <a href="Login.html">Login Here</a>
+        </form>
+    </div>
+    
+
+
+    <script>
+        function func(){
+            window.location.assign("index.html");
+        }
+        
+    </script>
+    
+</body>
+</html>
